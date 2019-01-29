@@ -299,7 +299,7 @@ public class BackupArquivos implements ActionListener
             System.out.println("After append = " + str1);
 
 
-  Runtime.getRuntime().exec(new String[]{"cmd.exe", "/c", "start copiar.bat",strArquivosSelecionados,destino}); 
+  Runtime.getRuntime().exec(new String[]{"cmd.exe", "/c", "start script\\copiarArquivo.bat",strArquivosSelecionados,destino}); 
   } 
     catch(IOException e) {
       System.out.println("exception");
